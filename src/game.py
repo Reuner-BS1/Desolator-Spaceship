@@ -14,5 +14,3 @@ class Game:
 
     def renderer(self):
         pass
-
-
