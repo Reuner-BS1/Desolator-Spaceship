@@ -1,8 +1,10 @@
+
+
 def __init__(self, x, y, sprite, speed):
-    self.x = 0.0
-    self.y = 10.0
+    self.x = x
+    self.y = y
     self.sprite = sprite
-    self.speed = 2.0
+    self.speed = speed
     self.hp = 1
 
 
