@@ -3,7 +3,7 @@ class Hitbox:
         self.x = x
         self.y = y
         self.radius = radius
-        pass
+
 
     def collides_with(self, other):
         pass

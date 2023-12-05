@@ -4,7 +4,7 @@ def __init__(self, x, y, sprite, speed):
     self.sprite = sprite
     self.speed = 1.0
     self.split_probability = ""
-    self.hp = 3
+    self.hp = 4
 
 
 def move(self, x, y):

@@ -4,7 +4,7 @@ class Powerup:
         self.y = y
         self.sprite = sprite
         self.speed = speed
-        pass
+
 
     def move(self, x, y):
         pass
