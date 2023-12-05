@@ -1,9 +1,11 @@
+
+
 def __init__(self, x, y, sprite, speed):
-    self.x = 0.0
-    self.y = 10.0
+    self.x = x
+    self.y = y
     self.sprite = sprite
     self.speed = 1.0
-    self.split_probability = ""
+    self.split_probability = 0.7
     self.hp = 3
 
 
