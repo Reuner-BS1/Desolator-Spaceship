@@ -1,7 +1,7 @@
-class
+class Bigshotweapon:
     def __int__(self):
         self.reload_time = "float"
 
-    def shot(self, x, y):
+    def shoot(self, x, y):
         pass
 
