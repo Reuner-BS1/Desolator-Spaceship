@@ -5,6 +5,5 @@ class Powerup:
         self.sprite = sprite
         self.speed = speed
 
-
     def move(self, x, y):
         pass

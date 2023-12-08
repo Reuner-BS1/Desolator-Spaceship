@@ -1,7 +1,7 @@
 class Game:
     def __init__(self):
         self.score = 0
-        self.window = ""
+        self.window = None
 
     def start(self):
         pass
@@ -9,8 +9,8 @@ class Game:
     def process_input(self):
         pass
 
-    def handle_collision(self):
+    def handle_collisions(self):
         pass
 
-    def renderer(self):
+    def render(self):
         pass

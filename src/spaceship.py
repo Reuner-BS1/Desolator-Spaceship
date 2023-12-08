@@ -1,13 +1,12 @@
 class Spaceship:
-    def __init__(self, x, y, sprite):
+    def __init__(self, x, y, sprite, speed):
         self.x = x
         self.y = y
         self.sprite = sprite
-        self.speed = 0.0
+        self.speed = speed
 
     def move(self, x, y):
         pass
 
     def shoot(self):
-        bullet = "Bullet"
-        return bullet
+        pass

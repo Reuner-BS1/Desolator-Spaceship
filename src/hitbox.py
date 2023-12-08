@@ -4,10 +4,8 @@ class Hitbox:
         self.y = y
         self.radius = radius
 
-
     def collides_with(self, other):
-        hashit = True
-        return hashit
+        pass
 
     def update_position(self, x, y):
         pass

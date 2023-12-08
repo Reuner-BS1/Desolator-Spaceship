@@ -1,18 +1,17 @@
 
+class BigAsteroid:
+    def __init__(self, x, y, sprite, speed, hp):
+        self.x = x
+        self.y = y
+        self.sprite = sprite
+        self.speed = speed
+        self.split_probability = 0.9
+        self.hp = hp
 
-def __init__(self, x, y, sprite, speed):
-    self.x = x
-    self.y = y
-    self.sprite = sprite
-    self.speed = speed
-    self.split_probability = ""
-    self.hp = 3
 
+    def move(self, x, y):
+        pass
 
-def move(self, x, y):
-    pass
-
-def split(self):
-    SmallAsteroid = ["Bullet1","Bullet2"]
-    return SmallAsteroid
+    def split(self):
+        pass
 
