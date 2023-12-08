@@ -6,7 +6,8 @@ class Hitbox:
 
 
     def collides_with(self, other):
-        pass
+        hashit = True
+        return hashit
 
     def update_position(self, x, y):
         pass
