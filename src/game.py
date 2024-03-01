@@ -4,8 +4,8 @@ class Game:
         self.window = None
         self.bullets = []
         self.powerups = []
-        self.spaceship = None
         self.asteroids = []
+        self.spaceship = None
 
     def start(self):
         pass
