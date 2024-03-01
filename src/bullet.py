@@ -5,6 +5,7 @@ class Bullet:
         self.sprite = sprite
         self.speed = speed
         self.damage = damage
+        self.hitbox = None
 
     def move(self, x, y):
         pass

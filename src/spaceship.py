@@ -4,6 +4,8 @@ class Spaceship:
         self.y = y
         self.sprite = sprite
         self.speed = speed
+        self.hitbox = None
+        self.Weapon = None
 
     def move(self, x, y):
         pass
